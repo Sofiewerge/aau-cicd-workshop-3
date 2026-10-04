@@ -1,25 +1,24 @@
-# Launch night: CI/CD starter
+# Launch night: CI kit
 
-The starter repo for the guest lecture **CI/CD in the age of AI agents** (AAU CPH, October 2026).
+The starter for Workshop 3 of the guest lecture **CI/CD in the age of AI agents** (AAU CPH, October 2026).
 
-A one-page ticket shop. Small on purpose: the site isn't the point, the pipeline around it is.
+The same ticket shop as in Session 1, now with tests, scripts and ready-made CI steps, and a few problems planted in
+it for those steps to find.
 
-## Session 1: launch it with continuous delivery (15 min)
+## Set up (5 min)
 
-Goal: a push to `main` puts the site live.
+You did this in Session 1, so it goes fast:
 
 1. Click **Use this template** > **Create a new repository**. Make it public, under your own account.
-2. Go to [vercel.com](https://vercel.com), sign up with GitHub (Hobby is free) and **Add New > Project**. Import your
-   new repository and click **Deploy**. No settings to change.
-3. Open your repository on GitHub and press `.` to open the editor in your browser. In `src/content.ts`, put your own
-   name and event. Commit to `main`.
-4. Watch Vercel build and deploy it. Open the URL. That's continuous delivery.
+2. In Vercel: **Add New > Project**, import the new repository, **Deploy**.
+3. Put your name in `src/content.ts` and commit to `main`. It deploys.
 
-No Node on your laptop? Everything above works in the browser. Want to work locally:
+Want to run the checks locally (optional):
 
 ```sh
 npm install
-npm run dev
+npm run lint
+npm test
 ```
 
 ## Workshop 3: add at least one CI step (30 min)
