@@ -35,8 +35,8 @@ Add as many steps as you like. One deterministic and one probabilistic is a good
 
 ## Show and tell
 
-Post your repository and a link to a pull request that went from red to green in the pinned issue
-**Show and tell** on the starter repo.
+Post your repository and a link to a pull request that went from red to green in the
+[Show and tell issue](https://github.com/emilhorlyck/aau-cicd-workshop-3/issues/1).
 
 ## What's in here
 
