@@ -21,6 +21,7 @@
     "audit": "npm audit --omit=dev --audit-level=high"
   },
   "dependencies": {
+    "dotenv": "^18.0.6",
     "lodash": "4.17.20"
   },
   "devDependencies": {
